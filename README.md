@@ -25,13 +25,52 @@
 <br>
 4.README.md 操作手冊文檔。
 <br>
-5.final_project.sql 國道事故熱點回報平台資料庫backup檔。
+5.accident.zip 前端相關程式碼與資源。
+<br>
+6.final_project.sql 國道事故熱點回報平台資料庫backup檔。
 <br>
 
 
-二、連結前後端系統
+二、前後端系統說明
 <br>
-前端:
+前端目錄結構:
+- /figure - 可能用來存儲應用程式中使用的圖片和圖標。
+  - admin.png - 管理員圖標。
+  - highway.jpg - 用於背景或主題的公路圖片。
+  - home_screen.jpg - 應用程式的主屏幕圖片。
+  - 等等，包含多個針對特定功能或用戶界面的圖片。
+
+- /src - 主要的源代碼目錄。
+  - /vendor - 第三方庫和框架的目錄。
+
+- /js - 存儲JavaScript文件，用於前端邏輯和互動。
+  - geolocation.js - 處理地理定位的腳本。
+<br>
+PHP腳本
+
+- admin_accident_manage.php - 管理員管理交通事故記錄的腳本。
+- admin_operation.php - 管理員進行的操作相關的腳本。
+- admin_traffic_weather_manage.php - 管理員管理交通和天氣資訊的腳本。
+- admin_user_manage.php - 管理員管理用戶帳號的腳本。
+- index.php - 應用程式的入口文件或主頁面。
+- login_admin.php - 管理員登入界面的腳本。
+- login_user.php - 用戶登入界面的腳本。
+- login_viewer.php - 觀察者登入界面的腳本。
+- signup.php - 用戶註冊界面的腳本。
+- signup_success.php - 註冊成功的提示頁面。
+- user_confirm_accident.php - 用戶確認事故發生的腳本。
+- user_current_accidents.php - 顯示當前事故的腳本。
+- user_operation.php - 處理用戶操作的腳本。
+- user_query_accidents.php - 用戶查詢事故記錄的腳本。
+- viewer_operation.php - 觀察者操作的腳本。
+- viewer_query_history.php - 觀察者查詢歷史記錄的腳本。
+
+<br>
+其他文件
+
+- composer.json / composer.lock - Composer相關文件，用於管理PHP的依賴項。
+- styles.css - 應用程式的樣式表。
+- test.php - 用於測試的腳本。
 <br>
 後段:final_project.sql
 <br>
