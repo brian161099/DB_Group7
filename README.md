@@ -71,8 +71,13 @@ PHP腳本
 - composer.json / composer.lock - Composer相關文件，用於管理PHP的依賴項。
 - styles.css - 應用程式的樣式表。
 - test.php - 用於測試的腳本。
+
+
 <br>
-後段:final_project.sql
+後端:以PostgreSQL建立之 final_project.sql，內容包含上述dataset中的各個table。
 <br>
 
 三、系統操作
+<br>
+系統操作參考影片連結:
+
